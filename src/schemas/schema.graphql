@@ -1,0 +1,9 @@
+extend type CatalogProductVariant {
+  sold: Int
+  qty: SimpleInventoryInfo
+}
+
+extend type ProductVariant {
+  sold: Int
+  qty: SimpleInventoryInfo
+} 
